@@ -12,6 +12,7 @@ import java.util.List;
 public abstract class RenderTypeMixin {
     @Unique
     private static final List<RenderType> renderType_cache = ImmutableList.of(RenderType.solid(), RenderType.cutoutMipped(), RenderType.cutout(), RenderType.translucent(), RenderType.tripwire());
+
     /**
      * @author Kasualix
      * @reason impl cache
